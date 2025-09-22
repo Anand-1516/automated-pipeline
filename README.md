@@ -24,4 +24,4 @@ nodejs-demo-app/
 
 ---
 
-Access the output in the ip http://<EC2_PUBLIC_IP>:5000
+Access the output in the ip (http://54.90.129.39:5000/)
