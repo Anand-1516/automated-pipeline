@@ -3,7 +3,7 @@ const app = express();
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-  res.send("Hello, CI/CD Pipeline is working! 🚀");
+  res.send("Hello, CI/CD Pipeline is working automatically! 🚀");
 });
 
 // Bind to 0.0.0.0 so it works inside Docker/EC2
