@@ -37,3 +37,5 @@ jobs:
             docker stop nodeapp || true
             docker rm nodeapp || true
             docker run -d --name nodeapp -p 5000:3000 ${{ secrets.DOCKER_USERNAME }}/automated-pipeline:latest
+
+            
